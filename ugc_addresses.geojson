@@ -789,13 +789,13 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Cin\u00e9 Cit\u00e9 La D\u00e9fense",
-                "address": "Parks, Louisiana, United States"
+                "address": "15 Parvis De La D\u00e9fense, 92800 Puteaux, France"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -91.831899,
-                    30.214556
+                    2.235743,
+                    48.890497
                 ]
             }
         },

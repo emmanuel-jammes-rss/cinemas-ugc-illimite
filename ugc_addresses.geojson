@@ -182,7 +182,8 @@
             "properties": {
                 "name": "MK2 BEAUBOURG",
                 "address": "50 Rue Rambuteau, 75003 Paris, France",
-                "marker-symbol": "cinema"
+                "marker-symbol": "cinema",
+                "marker-color": "#ff0000"
             },
             "geometry": {
                 "type": "Point",
@@ -197,7 +198,8 @@
             "properties": {
                 "name": "MK2 ODEON (C\u00d4T\u00c9 ST GERMAIN)",
                 "address": "113 Boulevard Saint-Germain, 75006 Paris, France",
-                "marker-symbol": "cinema"
+                "marker-symbol": "cinema",
+                "marker-color": "#ff0000"
             },
             "geometry": {
                 "type": "Point",
@@ -212,7 +214,8 @@
             "properties": {
                 "name": "MK2 ODEON (C\u00d4T\u00c9 ST MICHEL)",
                 "address": "7 Rue Hautefeuille, 75006 Paris, France",
-                "marker-symbol": "cinema"
+                "marker-symbol": "cinema",
+                "marker-color": "#ff0000"
             },
             "geometry": {
                 "type": "Point",
@@ -227,7 +230,8 @@
             "properties": {
                 "name": "MK2 PARNASSE",
                 "address": "11 Rue Jules Chaplain, 75006 Paris, France",
-                "marker-symbol": "cinema"
+                "marker-symbol": "cinema",
+                "marker-color": "#ff0000"
             },
             "geometry": {
                 "type": "Point",
@@ -242,7 +246,8 @@
             "properties": {
                 "name": "MK2 BASTILLE (C\u00d4T\u00c9 BEAUMARCHAIS)",
                 "address": "4 Boulevard Beaumarchais, 75011 Paris, France",
-                "marker-symbol": "cinema"
+                "marker-symbol": "cinema",
+                "marker-color": "#ff0000"
             },
             "geometry": {
                 "type": "Point",
@@ -257,7 +262,8 @@
             "properties": {
                 "name": "MK2 BASTILLE (C\u00d4T\u00c9 FG SAINT ANTOINE)",
                 "address": "5 Rue Du Faubourg Saint-Antoine, 75011 Paris, France",
-                "marker-symbol": "cinema"
+                "marker-symbol": "cinema",
+                "marker-color": "#ff0000"
             },
             "geometry": {
                 "type": "Point",
@@ -272,7 +278,8 @@
             "properties": {
                 "name": "MK2 NATION",
                 "address": "133 Boulevard Diderot, 75012 Paris, France",
-                "marker-symbol": "cinema"
+                "marker-symbol": "cinema",
+                "marker-color": "#ff0000"
             },
             "geometry": {
                 "type": "Point",
@@ -287,7 +294,8 @@
             "properties": {
                 "name": "MK2 BIBLIOTHEQUE",
                 "address": "Avenue De France, 75013 Paris, France",
-                "marker-symbol": "cinema"
+                "marker-symbol": "cinema",
+                "marker-color": "#ff0000"
             },
             "geometry": {
                 "type": "Point",
@@ -302,7 +310,8 @@
             "properties": {
                 "name": "MK2 QUAI DE LOIRE",
                 "address": "7 Quai De La Loire, 75019 Paris, France",
-                "marker-symbol": "cinema"
+                "marker-symbol": "cinema",
+                "marker-color": "#ff0000"
             },
             "geometry": {
                 "type": "Point",
@@ -317,7 +326,8 @@
             "properties": {
                 "name": "MK2 QUAI DE SEINE",
                 "address": "14 Quai De La Seine, 75019 Paris, France",
-                "marker-symbol": "cinema"
+                "marker-symbol": "cinema",
+                "marker-color": "#ff0000"
             },
             "geometry": {
                 "type": "Point",
@@ -332,7 +342,8 @@
             "properties": {
                 "name": "MK2 GAMBETTA",
                 "address": "6 Rue Belgrand, 75020 Paris, France",
-                "marker-symbol": "cinema"
+                "marker-symbol": "cinema",
+                "marker-color": "#ff0000"
             },
             "geometry": {
                 "type": "Point",

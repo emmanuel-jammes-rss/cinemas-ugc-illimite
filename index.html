@@ -115,7 +115,7 @@
           pointToLayer: (feature, latlng) => {
             const p = feature.properties || {};
             // Determine color from feature name only (marker-color/marker-symbol removed)
-            const defaultColor = '#2b7cff';
+            const defaultColor = '#38642c';
             const nameProp = (p.name || p.Name || p.NAME || '').toString().toLowerCase();
             let chosenColor = defaultColor;
             if (nameProp.includes('ugc')) {

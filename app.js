@@ -23,7 +23,7 @@ $(document).ready(function () {
     var stadia = L.tileLayer.provider('Stadia.OSMBright', {
         apikey: STADIA_API_KEY,
         minZoom: 6,
-        maxZoom: 20,
+        maxZoom: 20
     });
 
     var osm = L.tileLayer.provider('OpenStreetMap.Mapnik', {

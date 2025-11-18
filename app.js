@@ -1,7 +1,6 @@
 // MapBox
 var MAPBOX_ID = 'ejammes/cklif5lq51hat18o1q11qb64y';
 var MAPBOX_TOKEN = 'pk.eyJ1IjoiZWphbW1lcyIsImEiOiI2OWJlMmMyYzg2YjdkYjE3OTc1Yjk3NGY0Mzc3NTkyOCJ9.XrrwfeOTdKERo85D2D-SxQ';
-var STADIA_API_KEY = '6b0df61b-1d32-44d5-a565-9ed04c41c530';
 
 $(document).ready(function () {
 
@@ -19,13 +18,6 @@ $(document).ready(function () {
         maxZoom: 22,
     }).addTo(map);
 
-    // map config : stadia osm
-    var stadia = L.tileLayer.provider('Stadia.OSMBright', {
-        apikey: STADIA_API_KEY,
-        minZoom: 6,
-        maxZoom: 20
-    });
-
     var osm = L.tileLayer.provider('OpenStreetMap.Mapnik', {
         minZoom: 6,
         maxZoom: 22
@@ -33,7 +25,6 @@ $(document).ready(function () {
 
     var baseMaps = {
         "MapBox": mapbox,
-        "Stadia OSM": stadia,
         "OpenStreetMap": osm
     };
     

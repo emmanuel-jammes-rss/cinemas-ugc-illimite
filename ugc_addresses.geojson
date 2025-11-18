@@ -5,9 +5,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Cin\u00e9 Cit\u00e9 Les Halles",
-                "address": "75001, Paris, \u00cele-de-France, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "75001, Paris, \u00cele-de-France, France"
             },
             "geometry": {
                 "type": "Point",
@@ -21,9 +19,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Cin\u00e9 Cit\u00e9 Maillot",
-                "address": "2 Place De La Porte Maillot, 75017 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "2 Place De La Porte Maillot, 75017 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -37,9 +33,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Montparnasse",
-                "address": "83 Boulevard Du Montparnasse, 75006 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "83 Boulevard Du Montparnasse, 75006 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -53,9 +47,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Rotonde",
-                "address": "103 Boulevard Du Montparnasse, 75006 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "103 Boulevard Du Montparnasse, 75006 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -69,9 +61,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Od\u00e9on",
-                "address": "124 Boulevard Saint-Germain, 75006 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "124 Boulevard Saint-Germain, 75006 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -85,9 +75,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Danton",
-                "address": "99 Boulevard Saint-Germain, 75006 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "99 Boulevard Saint-Germain, 75006 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -101,9 +89,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Cin\u00e9 Cit\u00e9 Bercy",
-                "address": "2 Cour Saint-\u00c9milion, 75012 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "2 Cour Saint-\u00c9milion, 75012 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -117,9 +103,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Lyon Bastille",
-                "address": "12 Rue De Lyon, 75012 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "12 Rue De Lyon, 75012 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -133,9 +117,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Gobelins",
-                "address": "Avenue Des Gobelins, 75013 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "Avenue Des Gobelins, 75013 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -149,9 +131,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Op\u00e9ra",
-                "address": "32 Boulevard Des Italiens, 75009 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "32 Boulevard Des Italiens, 75009 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -165,9 +145,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Cin\u00e9 Cit\u00e9 Paris 19",
-                "address": "166 Boulevard Macdonald, 75019 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "166 Boulevard Macdonald, 75019 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -181,9 +159,7 @@
             "type": "Feature",
             "properties": {
                 "name": "MK2 BEAUBOURG",
-                "address": "50 Rue Rambuteau, 75003 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#ff0000"
+                "address": "50 Rue Rambuteau, 75003 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -197,9 +173,7 @@
             "type": "Feature",
             "properties": {
                 "name": "MK2 ODEON (C\u00d4T\u00c9 ST GERMAIN)",
-                "address": "113 Boulevard Saint-Germain, 75006 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#ff0000"
+                "address": "113 Boulevard Saint-Germain, 75006 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -213,9 +187,7 @@
             "type": "Feature",
             "properties": {
                 "name": "MK2 ODEON (C\u00d4T\u00c9 ST MICHEL)",
-                "address": "7 Rue Hautefeuille, 75006 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#ff0000"
+                "address": "7 Rue Hautefeuille, 75006 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -229,9 +201,7 @@
             "type": "Feature",
             "properties": {
                 "name": "MK2 PARNASSE",
-                "address": "11 Rue Jules Chaplain, 75006 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#ff0000"
+                "address": "11 Rue Jules Chaplain, 75006 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -245,9 +215,7 @@
             "type": "Feature",
             "properties": {
                 "name": "MK2 BASTILLE (C\u00d4T\u00c9 BEAUMARCHAIS)",
-                "address": "4 Boulevard Beaumarchais, 75011 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#ff0000"
+                "address": "4 Boulevard Beaumarchais, 75011 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -261,9 +229,7 @@
             "type": "Feature",
             "properties": {
                 "name": "MK2 BASTILLE (C\u00d4T\u00c9 FG SAINT ANTOINE)",
-                "address": "5 Rue Du Faubourg Saint-Antoine, 75011 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#ff0000"
+                "address": "5 Rue Du Faubourg Saint-Antoine, 75011 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -277,9 +243,7 @@
             "type": "Feature",
             "properties": {
                 "name": "MK2 NATION",
-                "address": "133 Boulevard Diderot, 75012 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#ff0000"
+                "address": "133 Boulevard Diderot, 75012 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -293,9 +257,7 @@
             "type": "Feature",
             "properties": {
                 "name": "MK2 BIBLIOTHEQUE",
-                "address": "Avenue De France, 75013 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#ff0000"
+                "address": "Avenue De France, 75013 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -309,9 +271,7 @@
             "type": "Feature",
             "properties": {
                 "name": "MK2 QUAI DE LOIRE",
-                "address": "7 Quai De La Loire, 75019 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#ff0000"
+                "address": "7 Quai De La Loire, 75019 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -325,9 +285,7 @@
             "type": "Feature",
             "properties": {
                 "name": "MK2 QUAI DE SEINE",
-                "address": "14 Quai De La Seine, 75019 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#ff0000"
+                "address": "14 Quai De La Seine, 75019 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -341,9 +299,7 @@
             "type": "Feature",
             "properties": {
                 "name": "MK2 GAMBETTA",
-                "address": "6 Rue Belgrand, 75020 Paris, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#ff0000"
+                "address": "6 Rue Belgrand, 75020 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -357,8 +313,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LE GRAND REX - LE REX",
-                "address": "1 Rue Du Faubourg Poissonni\u00e8re, 75009 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "1 Rue Du Faubourg Poissonni\u00e8re, 75009 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -372,8 +327,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LUMINOR HOTEL DE VILLE",
-                "address": "20 Rue Du Temple, 75004 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "20 Rue Du Temple, 75004 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -387,8 +341,7 @@
             "type": "Feature",
             "properties": {
                 "name": "CINEMA DU PANTHEON",
-                "address": "13 Rue Victor Cousin, 75005 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "13 Rue Victor Cousin, 75005 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -402,8 +355,7 @@
             "type": "Feature",
             "properties": {
                 "name": "\u00c9COLES CIN\u00c9MA CLUB",
-                "address": "25 Rue Des \u00c9coles, 75005 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "25 Rue Des \u00c9coles, 75005 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -417,8 +369,7 @@
             "type": "Feature",
             "properties": {
                 "name": "\u00c9P\u00c9E DE BOIS",
-                "address": "100 Rue Mouffetard, 75005 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "100 Rue Mouffetard, 75005 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -432,8 +383,7 @@
             "type": "Feature",
             "properties": {
                 "name": "ESPACE SAINT MICHEL",
-                "address": "7 Place Saint-Michel, 75005 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "7 Place Saint-Michel, 75005 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -447,8 +397,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LA FILMOTHEQUE QUARTIER LATIN",
-                "address": "9 Rue Champollion, 75005 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "9 Rue Champollion, 75005 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -462,8 +411,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LE CHAMPO",
-                "address": "51 Rue Des \u00c9coles, 75005 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "51 Rue Des \u00c9coles, 75005 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -477,8 +425,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LE GRAND ACTION",
-                "address": "5 Rue Des \u00c9coles, 75005 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "5 Rue Des \u00c9coles, 75005 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -492,8 +439,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LE REFLET MEDICIS",
-                "address": "7 Rue Champollion, 75005 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "7 Rue Champollion, 75005 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -507,8 +453,7 @@
             "type": "Feature",
             "properties": {
                 "name": "STUDIO GALANDE",
-                "address": "42 Rue Galande, 75005 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "42 Rue Galande, 75005 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -522,8 +467,7 @@
             "type": "Feature",
             "properties": {
                 "name": "STUDIO DES URSULINES",
-                "address": "10 Rue Des Ursulines, 75005 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "10 Rue Des Ursulines, 75005 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -537,8 +481,7 @@
             "type": "Feature",
             "properties": {
                 "name": "CHRISTINE CIN\u00c9MA CLUB",
-                "address": "4 Rue Christine, 75006 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "4 Rue Christine, 75006 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -552,8 +495,7 @@
             "type": "Feature",
             "properties": {
                 "name": "L'ARLEQUIN",
-                "address": "76 Rue De Rennes, 75006 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "76 Rue De Rennes, 75006 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -567,8 +509,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LE LUCERNAIRE",
-                "address": "53 Rue Notre-Dame-Des-Champs, 75006 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "53 Rue Notre-Dame-Des-Champs, 75006 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -582,8 +523,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LE SAINT-ANDR\u00c9 DES ARTS",
-                "address": "30 Rue Saint-Andr\u00e9 Des Arts, 75006 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "30 Rue Saint-Andr\u00e9 Des Arts, 75006 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -597,8 +537,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LES 3 LUXEMBOURG",
-                "address": "67 Rue Monsieur Le Prince, 75006 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "67 Rue Monsieur Le Prince, 75006 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -612,8 +551,7 @@
             "type": "Feature",
             "properties": {
                 "name": "JEU DE PAUME",
-                "address": "1 Place De La Concorde, 75001 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "1 Place De La Concorde, 75001 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -627,8 +565,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LE BALZAC",
-                "address": "1 Rue Balzac, 75008 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "1 Rue Balzac, 75008 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -642,8 +579,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LE LINCOLN",
-                "address": "14 Rue Lincoln, 75008 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "14 Rue Lincoln, 75008 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -657,8 +593,7 @@
             "type": "Feature",
             "properties": {
                 "name": "PUBLICIS",
-                "address": "133 Avenue Des Champs-\u00c9lys\u00e9es, 75008 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "133 Avenue Des Champs-\u00c9lys\u00e9es, 75008 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -672,8 +607,7 @@
             "type": "Feature",
             "properties": {
                 "name": "5 CAUMARTIN",
-                "address": "101 Rue Saint-Lazare, 75009 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "101 Rue Saint-Lazare, 75009 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -687,8 +621,7 @@
             "type": "Feature",
             "properties": {
                 "name": "MAX LINDER",
-                "address": "24 Boulevard Poissonni\u00e8re, 75009 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "24 Boulevard Poissonni\u00e8re, 75009 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -702,8 +635,7 @@
             "type": "Feature",
             "properties": {
                 "name": "L'ARCHIPEL",
-                "address": "17 Boulevard De Strasbourg, 75010 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "17 Boulevard De Strasbourg, 75010 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -717,8 +649,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LE BRADY",
-                "address": "39 Boulevard De Strasbourg, 75010 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "39 Boulevard De Strasbourg, 75010 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -732,8 +663,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LE LOUXOR",
-                "address": "170 Boulevard De Magenta, 75010 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "170 Boulevard De Magenta, 75010 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -747,8 +677,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LE MAJESTIC BASTILLE",
-                "address": "4 Boulevard Richard-Lenoir, 75011 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "4 Boulevard Richard-Lenoir, 75011 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -762,8 +691,7 @@
             "type": "Feature",
             "properties": {
                 "name": "L'ESCURIAL",
-                "address": "11 Boulevard De Port-Royal, 75013 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "11 Boulevard De Port-Royal, 75013 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -777,8 +705,7 @@
             "type": "Feature",
             "properties": {
                 "name": "L'entrep\u00f4t",
-                "address": "7 Rue Francis De Pressens\u00e9, 75014 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "7 Rue Francis De Pressens\u00e9, 75014 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -792,8 +719,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LES 7 PARNASSIENS",
-                "address": "98 Boulevard Du Montparnasse, 75014 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "98 Boulevard Du Montparnasse, 75014 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -807,8 +733,7 @@
             "type": "Feature",
             "properties": {
                 "name": "CHAPLIN DENFERT",
-                "address": "24 Place Denfert-Rochereau, 75014 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "24 Place Denfert-Rochereau, 75014 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -822,8 +747,7 @@
             "type": "Feature",
             "properties": {
                 "name": "CHAPLIN SAINT LAMBERT",
-                "address": "6 Rue P\u00e9clet, 75015 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "6 Rue P\u00e9clet, 75015 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -837,8 +761,7 @@
             "type": "Feature",
             "properties": {
                 "name": "CINEMA DES CINEASTES",
-                "address": "7 Avenue De Clichy, 75017 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "7 Avenue De Clichy, 75017 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -852,8 +775,7 @@
             "type": "Feature",
             "properties": {
                 "name": "MAC MAHON",
-                "address": "5 Avenue Mac-Mahon, 75017 Paris, France",
-                "marker-symbol": "cinema"
+                "address": "5 Avenue Mac-Mahon, 75017 Paris, France"
             },
             "geometry": {
                 "type": "Point",
@@ -867,9 +789,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Cin\u00e9 Cit\u00e9 La D\u00e9fense",
-                "address": "15 Parvis De La D\u00e9fense, 92800 Puteaux, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "15 Parvis De La D\u00e9fense, 92800 Puteaux, France"
             },
             "geometry": {
                 "type": "Point",
@@ -883,9 +803,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Issy-les-Moulineaux",
-                "address": "8 Promenade C\u0153ur De Ville, 92130 Issy-les-Moulineaux, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "8 Promenade C\u0153ur De Ville, 92130 Issy-les-Moulineaux, France"
             },
             "geometry": {
                 "type": "Point",
@@ -899,9 +817,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Cin\u00e9 Cit\u00e9 Rosny",
-                "address": "16 Rue Conrad Adenauer, 93110 Rosny-sous-Bois, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "16 Rue Conrad Adenauer, 93110 Rosny-sous-Bois, France"
             },
             "geometry": {
                 "type": "Point",
@@ -915,9 +831,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Cin\u00e9 Cit\u00e9 O Parinor",
-                "address": "93600, Aulnay-sous-Bois, Seine-Saint-Denis, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "93600, Aulnay-sous-Bois, Seine-Saint-Denis, France"
             },
             "geometry": {
                 "type": "Point",
@@ -931,9 +845,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Cin\u00e9 Cit\u00e9 Cr\u00e9teil",
-                "address": "94000, Cr\u00e9teil, Val-de-Marne, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "94000, Cr\u00e9teil, Val-de-Marne, France"
             },
             "geometry": {
                 "type": "Point",
@@ -947,9 +859,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Cin\u00e9 Cit\u00e9 Noisy-le-Grand",
-                "address": "Noisy-le-Grand, Seine-Saint-Denis, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "Noisy-le-Grand, Seine-Saint-Denis, France"
             },
             "geometry": {
                 "type": "Point",
@@ -963,9 +873,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Cin\u00e9 Cit\u00e9 Cergy-le-Haut",
-                "address": "95800, Cergy, Val-d'Oise, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "95800, Cergy, Val-d'Oise, France"
             },
             "geometry": {
                 "type": "Point",
@@ -979,9 +887,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Enghien",
-                "address": "38 Rue Du G\u00e9n\u00e9ral De Gaulle, 95880 Enghien-les-Bains, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "38 Rue Du G\u00e9n\u00e9ral De Gaulle, 95880 Enghien-les-Bains, France"
             },
             "geometry": {
                 "type": "Point",
@@ -995,9 +901,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Cin\u00e9 Cit\u00e9 V\u00e9lizy",
-                "address": "Centre Commercial Velizy 2, 78140 V\u00e9lizy-Villacoublay, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "Centre Commercial Velizy 2, 78140 V\u00e9lizy-Villacoublay, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1011,9 +915,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Cin\u00e9 Cit\u00e9 Parly",
-                "address": "2 Avenue Charles De Gaulle, 78150 Le Chesnay-Rocquencourt, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "2 Avenue Charles De Gaulle, 78150 Le Chesnay-Rocquencourt, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1027,9 +929,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Cin\u00e9 Cit\u00e9 SQY Ouest",
-                "address": "1 Avenue De La Source De La Bi\u00e8vre, 78180 Montigny-le-Bretonneux, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "1 Avenue De La Source De La Bi\u00e8vre, 78180 Montigny-le-Bretonneux, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1043,9 +943,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Roxane",
-                "address": "6 Rue Saint-Simon, 78000 Versailles, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "6 Rue Saint-Simon, 78000 Versailles, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1059,9 +957,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Cyrano",
-                "address": "7 Rue Rameau, 78000 Versailles, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "7 Rue Rameau, 78000 Versailles, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1075,9 +971,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Plaisir",
-                "address": "1170 Avenue De Saint-Germain, 78370 Plaisir, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "1170 Avenue De Saint-Germain, 78370 Plaisir, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1091,8 +985,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Le Central",
-                "address": "Square De La Mairie, 91190 Gif-sur-Yvette, France",
-                "marker-symbol": "cinema"
+                "address": "Square De La Mairie, 91190 Gif-sur-Yvette, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1106,8 +999,7 @@
             "type": "Feature",
             "properties": {
                 "name": "C2L Saint Germain",
-                "address": "Rue Du Vieux March\u00e9, 78100 Saint-Germain-en-Laye, France",
-                "marker-symbol": "cinema"
+                "address": "Rue Du Vieux March\u00e9, 78100 Saint-Germain-en-Laye, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1121,8 +1013,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Le Cin'Hoche",
-                "address": "6 Rue Hoche, 78500 Sartrouville, France",
-                "marker-symbol": "cinema"
+                "address": "6 Rue Hoche, 78500 Sartrouville, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1136,8 +1027,7 @@
             "type": "Feature",
             "properties": {
                 "name": "C2L Poissy",
-                "address": "112 Rue Du G\u00e9n\u00e9ral De Gaulle, 78300 Poissy, France",
-                "marker-symbol": "cinema"
+                "address": "112 Rue Du G\u00e9n\u00e9ral De Gaulle, 78300 Poissy, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1151,9 +1041,7 @@
             "type": "Feature",
             "properties": {
                 "name": "UGC Le Majestic",
-                "address": "11 Place Henri Iv, 77100 Meaux, France",
-                "marker-symbol": "cinema",
-                "marker-color": "#0000ff"
+                "address": "11 Place Henri Iv, 77100 Meaux, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1167,8 +1055,7 @@
             "type": "Feature",
             "properties": {
                 "name": "CINEMA LE STUDIO",
-                "address": "2 Rue \u00c9douard Poisson, 93300 Aubervilliers, France",
-                "marker-symbol": "cinema"
+                "address": "2 Rue \u00c9douard Poisson, 93300 Aubervilliers, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1182,8 +1069,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LES 3 PIERROTS",
-                "address": "6 Rue Du Mont Val\u00e9rien, 92210 Saint-Cloud, France",
-                "marker-symbol": "cinema"
+                "address": "6 Rue Du Mont Val\u00e9rien, 92210 Saint-Cloud, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1197,8 +1083,7 @@
             "type": "Feature",
             "properties": {
                 "name": "CINEMA JACQUES PREVERT",
-                "address": "Anatole France, Aulnay-sous-Bois, Seine-Saint-Denis, France",
-                "marker-symbol": "cinema"
+                "address": "Anatole France, Aulnay-sous-Bois, Seine-Saint-Denis, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1212,8 +1097,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LA PLEIADE",
-                "address": "12 Avenue Cousin De M\u00e9ricourt, 94230 Cachan, France",
-                "marker-symbol": "cinema"
+                "address": "12 Avenue Cousin De M\u00e9ricourt, 94230 Cachan, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1227,8 +1111,7 @@
             "type": "Feature",
             "properties": {
                 "name": "CIN\u00c9MA LOUIS JOUVET",
-                "address": "3 Place Maurice Berteaux, 78400 Chatou, France",
-                "marker-symbol": "cinema"
+                "address": "3 Place Maurice Berteaux, 78400 Chatou, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1242,8 +1125,7 @@
             "type": "Feature",
             "properties": {
                 "name": "CIN\u00c9MA RUTEBEUF",
-                "address": "All\u00e9es L\u00e9on Gambetta, 92110 Clichy, France",
-                "marker-symbol": "cinema"
+                "address": "All\u00e9es L\u00e9on Gambetta, 92110 Clichy, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1257,8 +1139,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LOUIS DAQUIN",
-                "address": "16 Mail Debre Berhan, 93150 Le Blanc-Mesnil, France",
-                "marker-symbol": "cinema"
+                "address": "16 Mail Debre Berhan, 93150 Le Blanc-Mesnil, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1272,8 +1153,7 @@
             "type": "Feature",
             "properties": {
                 "name": "CENTRE DES BORDS DE MARNE",
-                "address": "2 Rue De La Prairie, 94170 Le Perreux-sur-Marne, France",
-                "marker-symbol": "cinema"
+                "address": "2 Rue De La Prairie, 94170 Le Perreux-sur-Marne, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1287,8 +1167,7 @@
             "type": "Feature",
             "properties": {
                 "name": "JEAN MARAIS",
-                "address": "59 Boulevard Carnot, 78110 Le V\u00e9sinet, France",
-                "marker-symbol": "cinema"
+                "address": "59 Boulevard Carnot, 78110 Le V\u00e9sinet, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1302,8 +1181,7 @@
             "type": "Feature",
             "properties": {
                 "name": "L'ATALANTE",
-                "address": "48 Rue Du Prieur\u00e9, 78600 Maisons-Laffitte, France",
-                "marker-symbol": "cinema"
+                "address": "48 Rue Du Prieur\u00e9, 78600 Maisons-Laffitte, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1317,8 +1195,7 @@
             "type": "Feature",
             "properties": {
                 "name": "CINEMASSY",
-                "address": "Place de France, Massy, Essonne, France",
-                "marker-symbol": "cinema"
+                "address": "Place de France, Massy, Essonne, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1332,8 +1209,7 @@
             "type": "Feature",
             "properties": {
                 "name": "CIN\u00c9MA L'EDEN",
-                "address": "5 Rue De Pontoise, 95160 Montmorency, France",
-                "marker-symbol": "cinema"
+                "address": "5 Rue De Pontoise, 95160 Montmorency, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1347,8 +1223,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LE BIJOU",
-                "address": "4 Place De La Lib\u00e9ration, 93160 Noisy-le-Grand, France",
-                "marker-symbol": "cinema"
+                "address": "4 Place De La Lib\u00e9ration, 93160 Noisy-le-Grand, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1362,8 +1237,7 @@
             "type": "Feature",
             "properties": {
                 "name": "ARIEL RUEIL",
-                "address": "99 Avenue Paul Doumer, 92500 Rueil-Malmaison, France",
-                "marker-symbol": "cinema"
+                "address": "99 Avenue Paul Doumer, 92500 Rueil-Malmaison, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1377,8 +1251,7 @@
             "type": "Feature",
             "properties": {
                 "name": "ARIEL HAUTS DE RUEIL",
-                "address": "58 Avenue De Fouilleuse, 92500 Rueil-Malmaison, France",
-                "marker-symbol": "cinema"
+                "address": "58 Avenue De Fouilleuse, 92500 Rueil-Malmaison, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1392,8 +1265,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LES 4 DELTA",
-                "address": "Avenue Du Bac, 94210 Saint-Maur-des-Foss\u00e9s, France",
-                "marker-symbol": "cinema"
+                "address": "Avenue Du Bac, 94210 Saint-Maur-des-Foss\u00e9s, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1407,8 +1279,7 @@
             "type": "Feature",
             "properties": {
                 "name": "L\u2019\u00c9CRAN",
-                "address": "14 Passage De L'aqueduc, 93200 Saint-Denis, France",
-                "marker-symbol": "cinema"
+                "address": "14 Passage De L'aqueduc, 93200 Saint-Denis, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1422,8 +1293,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LE LIDO",
-                "address": "70 Avenue De La R\u00e9publique, 94100 Saint-Maur-des-Foss\u00e9s, France",
-                "marker-symbol": "cinema"
+                "address": "70 Avenue De La R\u00e9publique, 94100 Saint-Maur-des-Foss\u00e9s, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1437,8 +1307,7 @@
             "type": "Feature",
             "properties": {
                 "name": "CINEMA ESPACE 1789",
-                "address": "2 Rue Alexandre Bachelet, 93400 Saint-Ouen-sur-Seine, France",
-                "marker-symbol": "cinema"
+                "address": "2 Rue Alexandre Bachelet, 93400 Saint-Ouen-sur-Seine, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1452,8 +1321,7 @@
             "type": "Feature",
             "properties": {
                 "name": "LE CAPITOLE",
-                "address": "3 Rue Ledru - Rollin, 92150 Suresnes, France",
-                "marker-symbol": "cinema"
+                "address": "3 Rue Ledru - Rollin, 92150 Suresnes, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1467,8 +1335,7 @@
             "type": "Feature",
             "properties": {
                 "name": "L'ANTARES",
-                "address": "1 Place Du Coeur Battant, 95490 Vaur\u00e9al, France",
-                "marker-symbol": "cinema"
+                "address": "1 Place Du Coeur Battant, 95490 Vaur\u00e9al, France"
             },
             "geometry": {
                 "type": "Point",
@@ -1482,8 +1349,7 @@
             "type": "Feature",
             "properties": {
                 "name": "3 CINES ROBESPIERRE",
-                "address": "19 Avenue Maximilien Robespierre, 94400 Vitry-sur-Seine, France",
-                "marker-symbol": "cinema"
+                "address": "19 Avenue Maximilien Robespierre, 94400 Vitry-sur-Seine, France"
             },
             "geometry": {
                 "type": "Point",

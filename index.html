@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UGC Addresses — Map Viewer</title>
+  <style>
+    html,
+    body,
+    #map {
+      height: 100%;
+      margin: 0;
+      padding: 0
+    }
+
+    #map {
+      height: 100vh
+    }
+
+    .info {
+      background: #fff;
+      padding: 6px 8px;
+      border-radius: 4px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2)
+    }
+
+    /* simple marker used when GeoJSON has `marker-symbol` */
+    .my-marker {
+      width: 28px;
+      height: 28px;
+      line-height: 28px;
+      text-align: center;
+      border-radius: 50%;
+      color: #fff;
+      font-weight: 600;
+      font-size: 16px;
+      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.9) inset;
+      display: inline-block;
+      vertical-align: middle;
+      overflow: hidden
+    }
+
+    .my-marker i {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      line-height: 28px;
+      font-size: 14px
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-providers@3.0.0/leaflet-providers.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.85.1/dist/L.Control.Locate.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.85.1/dist/L.Control.Locate.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/js/all.min.js"></script>
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/fontawesome.min.css">
+
+  <script>
+    // accès à l'API MapBox
+    var MAPBOX_ID = 'ejammes/cklif5lq51hat18o1q11qb64y';
+    var MAPBOX_TOKEN = 'pk.eyJ1IjoiZWphbW1lcyIsImEiOiI2OWJlMmMyYzg2YjdkYjE3OTc1Yjk3NGY0Mzc3NTkyOCJ9.XrrwfeOTdKERo85D2D-SxQ';
+
+    // Basic map setup
+    const map = L.map('map', {
+      renderer: L.svg(),
+      zoomControl: true
+    }).setView([48.868069, 2.340929], 12);
+
+    // map config : mapbox osm
+    var mapbox = L.tileLayer.provider('MapBox', {
+      id: MAPBOX_ID,
+      accessToken: MAPBOX_TOKEN,
+      minZoom: 6,
+      maxZoom: 22,
+    }).addTo(map);
+
+    // locate control
+    L.control.locate({
+      locateOptions: {
+        maxZoom: 15
+      }
+    }
+    ).addTo(map);
+
+    // Helper: build popup HTML from properties
+    function propsToHtml(props) {
+      if (!props) return '';
+      let html = '<div class="info">';
+      for (const k of Object.keys(props)) {
+        let v = props[k];
+        if (v === null || v === undefined) v = '';
+        html += `<b>${k}</b>: ${String(v)}<br>`;
+      }
+      html += '</div>';
+      return html;
+    }
+
+    // Load GeoJSON (assumes this HTML is in the same folder as the .geojson file)
+    fetch('./ugc_addresses.geojson')
+      .then(resp => {
+        if (!resp.ok) throw new Error('Failed to load GeoJSON: ' + resp.status);
+        return resp.json();
+      })
+      .then(data => {
+        const cinemas = L.geoJSON(data, {
+          pointToLayer: (feature, latlng) => {
+            const p = feature.properties || {};
+            // Determine color from feature name only (marker-color/marker-symbol removed)
+            const defaultColor = '#2b7cff';
+            const nameProp = (p.name || p.Name || p.NAME || '').toString().toLowerCase();
+            let chosenColor = defaultColor;
+            if (nameProp.includes('ugc')) {
+              chosenColor = '#0000ff';
+            } else if (nameProp.includes('mk2')) {
+              chosenColor = '#ff0000';
+            }
+
+            // Always use Font Awesome cinema icon for markers
+            const esc = (t) => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+            const iconHtml = `<i class="fa-solid fa-film"></i>`;
+            const html = `<div class="my-marker" style="background:${esc(chosenColor)}">${iconHtml}</div>`;
+            return L.marker(latlng, { icon: L.divIcon({ className: '', html, iconSize: [28, 28], iconAnchor: [14, 14] }) });
+
+            // fallback to colored circle marker
+            return L.circleMarker(latlng, {
+              radius: 6,
+              fillColor: color,
+              color: '#fff',
+              weight: 1,
+              opacity: 1,
+              fillOpacity: 0.9
+            });
+          },
+          onEachFeature: (feature, layer) => {
+            layer.bindPopup(propsToHtml(feature.properties));
+          }
+        }).addTo(map);
+
+        // Fit map to data bounds if available
+        try {
+          const bounds = cinemas.getBounds();
+          if (bounds.isValid()) {
+            map.fitBounds(bounds);
+          }
+        } catch (e) {
+          // fallback to default
+        }
+
+        // Add simple summary control
+        const count = (data.features && data.features.length) || 0;
+        const info = L.control({ position: 'topright' });
+        info.onAdd = function () {
+          const div = L.DomUtil.create('div', 'info');
+          div.innerHTML = `<b>UGC Addresses</b><br/>Features: ${count}`;
+          return div;
+        };
+        info.addTo(map);
+      })
+      .catch(err => {
+        console.error(err);
+        const errDiv = L.control({ position: 'topright' });
+        errDiv.onAdd = () => {
+          const d = L.DomUtil.create('div', 'info');
+          d.style.background = '#fee';
+          d.innerHTML = '<b>Error loading GeoJSON</b><br/>' + (err.message || '');
+          return d;
+        };
+        errDiv.addTo(map);
+      });
+  </script>
+</body>
+
+</html>

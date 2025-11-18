@@ -49,8 +49,8 @@ $(document).ready(function () {
     };
 
     var layerControl = L.control.layers(baseMaps, overlayMaps, {
-        position: 'bottomleft',
-        collapsed: false,
+        position: 'topright',
+        collapsed: true,
         sortLayers: false
     }).addTo(map);
 

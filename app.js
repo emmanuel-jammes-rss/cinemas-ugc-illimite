@@ -1,6 +1,7 @@
 // MapBox
-var MAPBOX_ID = 'ejammes/cklif5lq51hat18o1q11qb64y';
-var MAPBOX_TOKEN = 'pk.eyJ1IjoiZWphbW1lcyIsImEiOiI2OWJlMmMyYzg2YjdkYjE3OTc1Yjk3NGY0Mzc3NTkyOCJ9.XrrwfeOTdKERo85D2D-SxQ';
+const MAPBOX_ID = 'ejammes/cklif5lq51hat18o1q11qb64y';
+const MAPBOX_TOKEN = 'pk.eyJ1IjoiZWphbW1lcyIsImEiOiI2OWJlMmMyYzg2YjdkYjE3OTc1Yjk3NGY0Mzc3NTkyOCJ9.XrrwfeOTdKERo85D2D-SxQ';
+const JAWG_TOKEN = 'fXZKCU1F49gajJDltPrS3ugDfQJF072Z7aQoolqvzg5qSU6R4IpLVCcNUjUT0eSq';
 
 $(document).ready(function () {
 
@@ -10,7 +11,7 @@ $(document).ready(function () {
         zoomControl: true
     }).setView([48.868069, 2.340929], 12);
 
-    // map config : mapbox
+    // map : mapbox
     var mapbox = L.tileLayer.provider('MapBox', {
         id: MAPBOX_ID,
         accessToken: MAPBOX_TOKEN,
@@ -18,13 +19,29 @@ $(document).ready(function () {
         maxZoom: 22,
     }).addTo(map);
 
+    // map : openstreetmap
     var osm = L.tileLayer.provider('OpenStreetMap.Mapnik', {
         minZoom: 6,
         maxZoom: 22
     });
+    
+    // map : geoportail
+    var geoportail = L.tileLayer.provider('GeoportailFrance.plan', {
+        minZoom: 6,
+        maxZoom: 22
+    });
 
+    // map : jawg terrain
+    var jawg_streets = L.tileLayer.provider('Jawg.Streets', {
+        minZoom: 6,
+        maxZoom: 22,
+        accessToken: JAWG_TOKEN
+    });
+    
     var baseMaps = {
         "MapBox": mapbox,
+        "Geoportail": geoportail,
+        "Jawg Streets": jawg_streets,
         "OpenStreetMap": osm
     };
     
